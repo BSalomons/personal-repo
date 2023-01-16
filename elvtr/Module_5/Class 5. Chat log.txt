@@ -1,0 +1,35 @@
+00:03:00	Humayun Naseer:	Hello
+00:03:08	Larijohn Adorable:	Hello Everyone
+00:04:18	David Maza:	still hashing it out, this weekend was a bomb for me personally
+00:19:01	Yoann Tagro:	@rajah can you please put it in full screen. thanks
+00:28:10	Vinnie Petre:	inplace=true?
+00:28:24	Vinnie Petre:	Nevermind.  :-)
+00:34:15	Lav W:	so %Y%m is always a 4 digit year and 2 digit month? What if it is a 2 digit year and 2 digit month? Is there a way we can quickly change the format to a date from a str?
+00:34:44	Joshua Reitner:	all of that happened to me this weekend
+00:40:58	Mike Gleason:	Me too but in Mexico
+01:09:39	John Knop:	That make sense.
+01:10:16	John Knop:	INTJ ?
+01:11:33	cheick s torodo:	how can I get passcode for all recording pass courses MR raja? I tried call student care they never pick my call and am very desappointed
+01:11:52	Mike:	I-Introvert E-Extrovert
+01:11:58	Larijohn Adorable:	Which MyerBriggs (Middle Two) is most popular with quants?
+01:13:07	Mike:	Extroversion or IntroversionSensing or IntuitionFeeling or ThinkingJudging or Perceiving
+01:16:26	Larijohn Adorable:	Heh, on my bed but with a second screen 2 ft away
+01:18:20	David Maza:	7
+01:18:21	Mike:	7\
+01:18:22	Yoann Tagro:	-3
+01:18:27	Zinaida Musaj:	7
+01:37:25	Masaun:	they might be two vastly scales of data
+01:37:32	Masaun:	so one dataset might dwarf the other
+01:38:22	Larijohn Adorable:	Is pandas.DataFrame.corr useful for considering how closely trends may be correlated together? Or pair plots ?
+01:40:09	Masaun:	thanks
+01:40:46	Vinnie Petre:	On the current plot, CPI is basically horizontal on the x-axis
+01:41:31	Yoann Tagro:	maybe we can normalize them
+01:47:31	Mike:	the passwords for the Video replays are listed in the same info as the video
+01:47:36	Larijohn Adorable:	Cheick, have you been able to login to classroom.google.com?
+01:47:43	Terrence Cort:	The passcodes are on classroom.google.com
+01:48:38	Mike:	Its' PFA and then the date
+01:49:08	Mike:	yep PFA and then Month/Day
+01:50:40	Mike:	Was there a Jupyter noetbook for class 4?
+01:52:50	Mike:	ok thanks
+01:52:55	Mike:	ok thanks
+01:53:02	David Maza:	good night
