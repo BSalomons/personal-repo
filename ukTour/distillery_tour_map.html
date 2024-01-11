@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_700aa058c6eaf4f19dfacf6357805387 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_700aa058c6eaf4f19dfacf6357805387" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_700aa058c6eaf4f19dfacf6357805387 = L.map(
+                "map_700aa058c6eaf4f19dfacf6357805387",
+                {
+                    center: [51.46773895, -0.4587800741571181],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c11d1cd13b67a1c513d114ec6e42d7e5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_c11d1cd13b67a1c513d114ec6e42d7e5.addTo(map_700aa058c6eaf4f19dfacf6357805387);
+    
+            var marker_f6ca9f40355f45e665af469ffd399f07 = L.marker(
+                [51.46773895, -0.4587800741571181],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_d9ef1759ce52592b49a9b19aee18e502 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cef765e2fa056227ab1cfc86bb53ba9 = $(`<div id="html_6cef765e2fa056227ab1cfc86bb53ba9" style="width: 100.0%; height: 100.0%;">Heathrow Airport, London, UK</div>`)[0];
+                popup_d9ef1759ce52592b49a9b19aee18e502.setContent(html_6cef765e2fa056227ab1cfc86bb53ba9);
+            
+        
+
+        marker_f6ca9f40355f45e665af469ffd399f07.bindPopup(popup_d9ef1759ce52592b49a9b19aee18e502)
+        ;
+
+        
+    
+    
+            var marker_9afadecf089c36102a886844e5fd7968 = L.marker(
+                [54.67650515, -3.2488957485675622],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_7c699a8941b195b55ed647910c66a3c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9966fd6c839b20b2bf5513527f2ad7c5 = $(`<div id="html_9966fd6c839b20b2bf5513527f2ad7c5" style="width: 100.0%; height: 100.0%;">Lakes Distillery, UK</div>`)[0];
+                popup_7c699a8941b195b55ed647910c66a3c9.setContent(html_9966fd6c839b20b2bf5513527f2ad7c5);
+            
+        
+
+        marker_9afadecf089c36102a886844e5fd7968.bindPopup(popup_7c699a8941b195b55ed647910c66a3c9)
+        ;
+
+        
+    
+    
+            var marker_43b6ceb80f6b82e3edd8e0539c6be2e1 = L.marker(
+                [55.86221725, -4.296909241114777],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_3339e6eaeedf992285554e7566030668 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b686e6cd37c3fd7c4579bb93721aa0eb = $(`<div id="html_b686e6cd37c3fd7c4579bb93721aa0eb" style="width: 100.0%; height: 100.0%;">Clydeside Distillery, Glasgow, UK</div>`)[0];
+                popup_3339e6eaeedf992285554e7566030668.setContent(html_b686e6cd37c3fd7c4579bb93721aa0eb);
+            
+        
+
+        marker_43b6ceb80f6b82e3edd8e0539c6be2e1.bindPopup(popup_3339e6eaeedf992285554e7566030668)
+        ;
+
+        
+    
+    
+            var marker_4132b36d72fa738372cac155d0597bb4 = L.marker(
+                [55.86115665, -4.250218902542482],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_8161314586a000ede890cfccf907501c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0f400fb25ecccf63d28fcf94e438769 = $(`<div id="html_b0f400fb25ecccf63d28fcf94e438769" style="width: 100.0%; height: 100.0%;">George Square, Glasgow, UK</div>`)[0];
+                popup_8161314586a000ede890cfccf907501c.setContent(html_b0f400fb25ecccf63d28fcf94e438769);
+            
+        
+
+        marker_4132b36d72fa738372cac155d0597bb4.bindPopup(popup_8161314586a000ede890cfccf907501c)
+        ;
+
+        
+    
+    
+            var marker_2881c54982ff3d372fe0ce0407296078 = L.marker(
+                [55.5939246, -5.150776031896346],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_b85594151befa892f0e721e8e07fa63b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1f4b574f06bb8eaf1b534d29261707f = $(`<div id="html_a1f4b574f06bb8eaf1b534d29261707f" style="width: 100.0%; height: 100.0%;">Brodick, Isle of Arran, UK</div>`)[0];
+                popup_b85594151befa892f0e721e8e07fa63b.setContent(html_a1f4b574f06bb8eaf1b534d29261707f);
+            
+        
+
+        marker_2881c54982ff3d372fe0ce0407296078.bindPopup(popup_b85594151befa892f0e721e8e07fa63b)
+        ;
+
+        
+    
+    
+            var marker_1ee7549bf55090d6f68fb14af7c660a7 = L.marker(
+                [55.4241858, -5.6051005],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_bc136c3ac35137585ce5cc67be21a373 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd746ea7a2bddcf0fc8eada691456de1 = $(`<div id="html_dd746ea7a2bddcf0fc8eada691456de1" style="width: 100.0%; height: 100.0%;">Campbeltown, UK</div>`)[0];
+                popup_bc136c3ac35137585ce5cc67be21a373.setContent(html_dd746ea7a2bddcf0fc8eada691456de1);
+            
+        
+
+        marker_1ee7549bf55090d6f68fb14af7c660a7.bindPopup(popup_bc136c3ac35137585ce5cc67be21a373)
+        ;
+
+        
+    
+    
+            var marker_bb90de19d769ea1e615df19608991c92 = L.marker(
+                [55.42552955, -5.609285006783338],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_4234d14eeeed077d43fd076eb1bdb35a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4838f2c42582bae65c54e962bc17581f = $(`<div id="html_4838f2c42582bae65c54e962bc17581f" style="width: 100.0%; height: 100.0%;">Springbank Distillery, Campbeltown, UK</div>`)[0];
+                popup_4234d14eeeed077d43fd076eb1bdb35a.setContent(html_4838f2c42582bae65c54e962bc17581f);
+            
+        
+
+        marker_bb90de19d769ea1e615df19608991c92.bindPopup(popup_4234d14eeeed077d43fd076eb1bdb35a)
+        ;
+
+        
+    
+    
+            var marker_340a9238fe540ff3f956f990561a6881 = L.marker(
+                [55.8004361, -5.4736403],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_12541bf3d0b0394b8c0def325fadb11f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b95ee1895c08c52dc5b43046a8553ac = $(`<div id="html_0b95ee1895c08c52dc5b43046a8553ac" style="width: 100.0%; height: 100.0%;">Kennacraig, UK</div>`)[0];
+                popup_12541bf3d0b0394b8c0def325fadb11f.setContent(html_0b95ee1895c08c52dc5b43046a8553ac);
+            
+        
+
+        marker_340a9238fe540ff3f956f990561a6881.bindPopup(popup_12541bf3d0b0394b8c0def325fadb11f)
+        ;
+
+        
+    
+    
+            var marker_448a8a8ad8e4fb0f7ee7182c26d1fe33 = L.marker(
+                [55.75858015, -6.165672283533452],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_ba42ae882a5b66d45969d1865ff60f24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d34f3ef1a1119c22a4d504c6c98f4510 = $(`<div id="html_d34f3ef1a1119c22a4d504c6c98f4510" style="width: 100.0%; height: 100.0%;">Islay, UK</div>`)[0];
+                popup_ba42ae882a5b66d45969d1865ff60f24.setContent(html_d34f3ef1a1119c22a4d504c6c98f4510);
+            
+        
+
+        marker_448a8a8ad8e4fb0f7ee7182c26d1fe33.bindPopup(popup_ba42ae882a5b66d45969d1865ff60f24)
+        ;
+
+        
+    
+    
+            var marker_1a43492926a20e193c64b42e64d16056 = L.marker(
+                [56.415695, -5.4734688],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_38ba2de31e03f6b0adac66d60418ff22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30b5f8edcdfb48a42afdbfb42f821e7a = $(`<div id="html_30b5f8edcdfb48a42afdbfb42f821e7a" style="width: 100.0%; height: 100.0%;">Oban, UK</div>`)[0];
+                popup_38ba2de31e03f6b0adac66d60418ff22.setContent(html_30b5f8edcdfb48a42afdbfb42f821e7a);
+            
+        
+
+        marker_1a43492926a20e193c64b42e64d16056.bindPopup(popup_38ba2de31e03f6b0adac66d60418ff22)
+        ;
+
+        
+    
+    
+            var marker_fc8b7fbce03e0a42701af636e45c644e = L.marker(
+                [57.0061325, -5.8294488],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_fafde7190ea21952ffef86a5ed5a9b06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ca97b8ee9fd4aa0d4d4ad696364e0af = $(`<div id="html_0ca97b8ee9fd4aa0d4d4ad696364e0af" style="width: 100.0%; height: 100.0%;">Mallaig, UK</div>`)[0];
+                popup_fafde7190ea21952ffef86a5ed5a9b06.setContent(html_0ca97b8ee9fd4aa0d4d4ad696364e0af);
+            
+        
+
+        marker_fc8b7fbce03e0a42701af636e45c644e.bindPopup(popup_fafde7190ea21952ffef86a5ed5a9b06)
+        ;
+
+        
+    
+    
+            var marker_dc9fec4d61390fbf138c5981b837ee15 = L.marker(
+                [57.417553850000004, -6.0535425798890135],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_937bbfc592d3fce6c6bd867b32a2f825 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a3afd748b19d29dd5c41cb715d16096 = $(`<div id="html_1a3afd748b19d29dd5c41cb715d16096" style="width: 100.0%; height: 100.0%;">Raasay, UK</div>`)[0];
+                popup_937bbfc592d3fce6c6bd867b32a2f825.setContent(html_1a3afd748b19d29dd5c41cb715d16096);
+            
+        
+
+        marker_dc9fec4d61390fbf138c5981b837ee15.bindPopup(popup_937bbfc592d3fce6c6bd867b32a2f825)
+        ;
+
+        
+    
+    
+            var marker_3b3d6ac62f6b6416b96e24a167aab472 = L.marker(
+                [57.4790124, -4.225739],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_fd260fd86a0663c5e6891296fa220ae7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a3396c69ba623a97288ad1513891bf3 = $(`<div id="html_6a3396c69ba623a97288ad1513891bf3" style="width: 100.0%; height: 100.0%;">Inverness, UK</div>`)[0];
+                popup_fd260fd86a0663c5e6891296fa220ae7.setContent(html_6a3396c69ba623a97288ad1513891bf3);
+            
+        
+
+        marker_3b3d6ac62f6b6416b96e24a167aab472.bindPopup(popup_fd260fd86a0663c5e6891296fa220ae7)
+        ;
+
+        
+    
+    
+            var marker_20521005f963bd8cc295ff3cf6e93b1f = L.marker(
+                [57.6880674, -4.243861270986169],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_145ef595154eccf010d9b4d9126f681b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8f522c848820d49662e1a557d4f7c56 = $(`<div id="html_c8f522c848820d49662e1a557d4f7c56" style="width: 100.0%; height: 100.0%;">Dalmore Distillery, UK</div>`)[0];
+                popup_145ef595154eccf010d9b4d9126f681b.setContent(html_c8f522c848820d49662e1a557d4f7c56);
+            
+        
+
+        marker_20521005f963bd8cc295ff3cf6e93b1f.bindPopup(popup_145ef595154eccf010d9b4d9126f681b)
+        ;
+
+        
+    
+    
+            var marker_dce215de64ce92bd6afe7c0d52b82cd9 = L.marker(
+                [57.823645049999996, -4.07183157679627],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_01baca52ffa56af647dca457760df618 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d04986a1d029b5e0e8670d69284ad77 = $(`<div id="html_5d04986a1d029b5e0e8670d69284ad77" style="width: 100.0%; height: 100.0%;">Glenmorangie Distillery, UK</div>`)[0];
+                popup_01baca52ffa56af647dca457760df618.setContent(html_5d04986a1d029b5e0e8670d69284ad77);
+            
+        
+
+        marker_dce215de64ce92bd6afe7c0d52b82cd9.bindPopup(popup_01baca52ffa56af647dca457760df618)
+        ;
+
+        
+    
+    
+            var marker_95af7f17b3479441ce198ddfeabf44bd = L.marker(
+                [57.8401334, -4.180832586821493],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_d52c7390a713b0cfa635e3d71aff8796 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df61fb703e9f4845b73edea6c5a22478 = $(`<div id="html_df61fb703e9f4845b73edea6c5a22478" style="width: 100.0%; height: 100.0%;">Balblair Distillery, UK</div>`)[0];
+                popup_d52c7390a713b0cfa635e3d71aff8796.setContent(html_df61fb703e9f4845b73edea6c5a22478);
+            
+        
+
+        marker_95af7f17b3479441ce198ddfeabf44bd.bindPopup(popup_d52c7390a713b0cfa635e3d71aff8796)
+        ;
+
+        
+    
+    
+            var marker_3f8fb270589dc072207109208f5e382c = L.marker(
+                [57.339032700000004, -4.009291479128002],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_bc0dbfdd941fa7b47c0bc16e5e25faf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_342867d7428cf15d575985c161922372 = $(`<div id="html_342867d7428cf15d575985c161922372" style="width: 100.0%; height: 100.0%;">Tomatin Distillery, UK</div>`)[0];
+                popup_bc0dbfdd941fa7b47c0bc16e5e25faf2.setContent(html_342867d7428cf15d575985c161922372);
+            
+        
+
+        marker_3f8fb270589dc072207109208f5e382c.bindPopup(popup_bc0dbfdd941fa7b47c0bc16e5e25faf2)
+        ;
+
+        
+    
+    
+            var marker_baf5713eed8f5602d8bcf47c07c9d176 = L.marker(
+                [57.42707505, -3.314354609485884],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_2cb22ac28720e79fe12ff7a286dc22fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84b0335a0986824d543dff00ffe9c490 = $(`<div id="html_84b0335a0986824d543dff00ffe9c490" style="width: 100.0%; height: 100.0%;">Glenfarclas Distillery, UK</div>`)[0];
+                popup_2cb22ac28720e79fe12ff7a286dc22fd.setContent(html_84b0335a0986824d543dff00ffe9c490);
+            
+        
+
+        marker_baf5713eed8f5602d8bcf47c07c9d176.bindPopup(popup_2cb22ac28720e79fe12ff7a286dc22fd)
+        ;
+
+        
+    
+    
+            var marker_22f10621878ad47ab46153e6aec5c46f = L.marker(
+                [57.4582099, -3.1263706727548124],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_d1dff078780bf17cc837228fc2ca9ab0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_204a92f4a5d3f194930d22ecc88895ca = $(`<div id="html_204a92f4a5d3f194930d22ecc88895ca" style="width: 100.0%; height: 100.0%;">Balvenie Distillery, UK</div>`)[0];
+                popup_d1dff078780bf17cc837228fc2ca9ab0.setContent(html_204a92f4a5d3f194930d22ecc88895ca);
+            
+        
+
+        marker_22f10621878ad47ab46153e6aec5c46f.bindPopup(popup_d1dff078780bf17cc837228fc2ca9ab0)
+        ;
+
+        
+    
+    
+            var marker_254b953f6a5b2eb1fe25ddfb7ffec9d6 = L.marker(
+                [57.4898327, -3.1880205],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_3887f8ed1267a9f5fe664f83c75b8a3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18d03b33b4e89c0bde146d88bdfd2262 = $(`<div id="html_18d03b33b4e89c0bde146d88bdfd2262" style="width: 100.0%; height: 100.0%;">Craigellachie, UK</div>`)[0];
+                popup_3887f8ed1267a9f5fe664f83c75b8a3c.setContent(html_18d03b33b4e89c0bde146d88bdfd2262);
+            
+        
+
+        marker_254b953f6a5b2eb1fe25ddfb7ffec9d6.bindPopup(popup_3887f8ed1267a9f5fe664f83c75b8a3c)
+        ;
+
+        
+    
+    
+            var marker_b98906bee20dd66945385891644e5aae = L.marker(
+                [56.73631115, -2.6535092384835073],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_e87f87a85780ac226c71a1e674df22cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cecf40ff8e2366d5a6fe61037ab4aef = $(`<div id="html_6cecf40ff8e2366d5a6fe61037ab4aef" style="width: 100.0%; height: 100.0%;">Glencadam Distillery, UK</div>`)[0];
+                popup_e87f87a85780ac226c71a1e674df22cd.setContent(html_6cecf40ff8e2366d5a6fe61037ab4aef);
+            
+        
+
+        marker_b98906bee20dd66945385891644e5aae.bindPopup(popup_e87f87a85780ac226c71a1e674df22cd)
+        ;
+
+        
+    
+    
+            var marker_7bb01f344332cf1b3a542b7e28063984 = L.marker(
+                [55.9533456, -3.1883749],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_0c60887a9cebe79bd9b3a1ab24e2d7a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86e9ea4a348a8cbce7ec1578ca52cd89 = $(`<div id="html_86e9ea4a348a8cbce7ec1578ca52cd89" style="width: 100.0%; height: 100.0%;">Edinburgh, UK</div>`)[0];
+                popup_0c60887a9cebe79bd9b3a1ab24e2d7a9.setContent(html_86e9ea4a348a8cbce7ec1578ca52cd89);
+            
+        
+
+        marker_7bb01f344332cf1b3a542b7e28063984.bindPopup(popup_0c60887a9cebe79bd9b3a1ab24e2d7a9)
+        ;
+
+        
+    
+    
+            var marker_d5b387dec3b463037974d138f7cc5648 = L.marker(
+                [55.9440812, -3.161833],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_da1ea70baac3fc31aa005f07cbab208a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35eb01638da89c474dcda3723dde8fdd = $(`<div id="html_35eb01638da89c474dcda3723dde8fdd" style="width: 100.0%; height: 100.0%;">Arthur's Seat, Edinburgh, UK</div>`)[0];
+                popup_da1ea70baac3fc31aa005f07cbab208a.setContent(html_35eb01638da89c474dcda3723dde8fdd);
+            
+        
+
+        marker_d5b387dec3b463037974d138f7cc5648.bindPopup(popup_da1ea70baac3fc31aa005f07cbab208a)
+        ;
+
+        
+    
+    
+            var marker_44a4ecf724b7bc09c8744d2ed0cf7706 = L.marker(
+                [55.9430356, -3.1776279852097558],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_7bd915a6e039a166e0e0c678e1ce8934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44cbe19b3d48358de0da25ffd4daa2e1 = $(`<div id="html_44cbe19b3d48358de0da25ffd4daa2e1" style="width: 100.0%; height: 100.0%;">Holyrood Distillery, Edinburgh, UK</div>`)[0];
+                popup_7bd915a6e039a166e0e0c678e1ce8934.setContent(html_44cbe19b3d48358de0da25ffd4daa2e1);
+            
+        
+
+        marker_44a4ecf724b7bc09c8744d2ed0cf7706.bindPopup(popup_7bd915a6e039a166e0e0c678e1ce8934)
+        ;
+
+        
+    
+    
+            var marker_980e718601fc9b5c6dd237ce1ad1a3ec = L.marker(
+                [55.9487433, -3.1958749],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_407f28e2b12596e76046fdc63309ff83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bbbfdefeeeb99334e0f110baf36eaea = $(`<div id="html_4bbbfdefeeeb99334e0f110baf36eaea" style="width: 100.0%; height: 100.0%;">Scotch Whisky Experience, Edinburgh, UK</div>`)[0];
+                popup_407f28e2b12596e76046fdc63309ff83.setContent(html_4bbbfdefeeeb99334e0f110baf36eaea);
+            
+        
+
+        marker_980e718601fc9b5c6dd237ce1ad1a3ec.bindPopup(popup_407f28e2b12596e76046fdc63309ff83)
+        ;
+
+        
+    
+    
+            var marker_ce07897f9d46dea53311ece1d949a02f = L.marker(
+                [55.4245291, -2.788774849275968],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_14c54bcd0c851fc191ea5e7f197676ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_779852dc46e864ab6b8cdc0235a6f1d6 = $(`<div id="html_779852dc46e864ab6b8cdc0235a6f1d6" style="width: 100.0%; height: 100.0%;">Borders Distillery, UK</div>`)[0];
+                popup_14c54bcd0c851fc191ea5e7f197676ef.setContent(html_779852dc46e864ab6b8cdc0235a6f1d6);
+            
+        
+
+        marker_ce07897f9d46dea53311ece1d949a02f.bindPopup(popup_14c54bcd0c851fc191ea5e7f197676ef)
+        ;
+
+        
+    
+    
+            var marker_8d61d640f443d15d24a80f4ec1ba8df0 = L.marker(
+                [51.5089252, -0.1961978],
+                {}
+            ).addTo(map_700aa058c6eaf4f19dfacf6357805387);
+        
+    
+        var popup_145d2d3520205a13f87b353890e38635 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a210039337d34a96d2e230c6c637640e = $(`<div id="html_a210039337d34a96d2e230c6c637640e" style="width: 100.0%; height: 100.0%;">Notting Hill Gate, London, UK</div>`)[0];
+                popup_145d2d3520205a13f87b353890e38635.setContent(html_a210039337d34a96d2e230c6c637640e);
+            
+        
+
+        marker_8d61d640f443d15d24a80f4ec1ba8df0.bindPopup(popup_145d2d3520205a13f87b353890e38635)
+        ;
+
+        
+    
+</script>
+</html>
