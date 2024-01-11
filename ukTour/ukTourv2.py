@@ -77,8 +77,9 @@ itinerary = [
     {"date": "Sep 19, 2025", "location": "Notting Hill Gate, London, UK", "details": "end"},
     {"date": "Sep 20, 2025", "location": "Heathrow Airport, London, UK", "details": "start"},
 ]
-
-api_key = 'AIzaSyC8zO3frn40ihOPbhc2jV_WsTR7GQyd2VQ'  # Replace with your actual API key
+'''
+api_key =   # Removed since it was pushed to public repo, replace with your actual API key
+'''
 
 # Initialize your folium map (starting with the first location)
 geolocator = Nominatim(user_agent="tour_map_script")
